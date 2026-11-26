@@ -15,7 +15,32 @@
 
 ## Case Studies
 
-- [Onboarding Funnel Redesign](./case-studies/01-onboarding-funnel-redesign.md)
+- [Onboarding Funnel Redesign](./case-studies/01-onboarding-funnel-redesign/01-onboarding-funnel-redesign.md)
+
+## Development
+
+Node.js 22 LTS와 npm을 사용합니다.
+
+```bash
+npm ci
+npm run dev
+```
+
+브라우저에서 http://localhost:3000 을 엽니다.
+
+```bash
+npm run lint
+npm run typecheck
+npm run build
+npm start
+```
+
+- `src/app/`: Next.js App Router 페이지와 레이아웃
+- `src/features/`: 케이스별 기능 구현 시 추가할 컴포넌트와 로직
+- `src/components/`: 여러 케이스에서 공유하는 UI가 생기면 추가
+- `case-studies/`, `subscription/`: 기존 사례 문서와 프로토타입 원본
+
+실행 앱의 TypeScript 검사 범위는 `src/`이며, 기존 프로토타입은 앱으로 옮길 때 통합합니다.
 
 ## Tech
 
