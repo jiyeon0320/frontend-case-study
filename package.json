@@ -1,0 +1,39 @@
+{
+  "name": "frontend-case-study",
+  "version": "0.1.0",
+  "description": "실서비스에서 사용자 문제를 구조화하고, 실험과 운영 가능한 구현으로 연결한 사례를 정리한 저장소입니다.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiyeon0320/frontend-case-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jiyeon0320/frontend-case-study/issues"
+  },
+  "homepage": "https://github.com/jiyeon0320/frontend-case-study#readme",
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.11",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.6",
+    "typescript": "6.0.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
